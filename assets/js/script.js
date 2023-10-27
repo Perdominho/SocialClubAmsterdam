@@ -157,3 +157,12 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+document.getElementById("language-toggle").addEventListener("change", function() {
+  if (this.checked) {
+      // Redirigir a la versión en inglés (carpeta "en")
+      window.location.href = "en/index.html";
+  } else {
+      // Redirigir a la versión en español (carpeta "es")
+      window.location.href = "../index.html";
+  }
+});

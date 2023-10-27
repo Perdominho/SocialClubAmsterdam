@@ -1880,3 +1880,15 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+@media (max-width: 767px) {
+  
+  .navbar-link{
+    font-size: 15px; /* Cambia el tamaño de fuente en móvil */
+        margin-bottom: 4px; /* Agrega espacio entre elementos en móvil */
+    /* Otros estilos para elementos de lista en móvil */
+  }
+}
+
+
+

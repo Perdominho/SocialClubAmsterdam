@@ -1891,4 +1891,9 @@ textarea.form-input::-webkit-resizer { display: none; }
 }
 
 
-
+.bandera {
+  position: fixed;
+  bottom: 13px; /* Agregamos margen desde la parte inferior */
+  right: 10px;  /* Agregamos margen desde la parte derecha */
+  z-index: 9999;
+}
